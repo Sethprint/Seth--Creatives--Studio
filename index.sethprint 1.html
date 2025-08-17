@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Seth Creative Studios – Graphics, Web Design & T‑Shirt Printing</title>
+  <meta name="description" content="Seth Creative Studios: Creative designs, smart websites, and quality T‑shirt printing in Witbank, South Africa. Get a free quote today!" />
+  <meta property="og:title" content="Seth Creative Studios" />
+  <meta property="og:description" content="Graphics • Web Design • T‑Shirt Printing" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Seth Creative Studios" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root { --brand:#0ea5e9; --ink:#0b1220; --muted:#6b7280; }
+    body { font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji"; color: var(--ink); }
+    .glass { backdrop-filter: blur(10px); background: rgba(255,255,255,.65); }
+    .shadow-soft { box-shadow: 0 10px 30px rgba(2,6,23,.08), 0 2px 6px rgba(2,6,23,.06); }
+    .container-narrow{ max-width:1050px; }
+  </style>
+</head>
+<body class="bg-slate-50">
+  <!-- Header -->
+  <header class="sticky top-0 z-40 bg-white/90 backdrop-blur border-b border-slate-200">
+    <div class="mx-auto container-narrow px-4 sm:px-6 py-3 flex items-center justify-between">
+      <a href="#home" class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-2xl bg-sky-500 grid place-items-center text-white font-extrabold">S</div>
+        <div>
+          <div class="text-xl font-bold leading-tight">Seth Creative Studios</div>
+          <div class="text-xs text-slate-500">Graphics • Web • Printing</div>
+        </div>
+      </a>
+      <nav class="hidden md:flex items-center gap-6 text-sm text-slate-700">
+        <a href="#home" class="hover:text-sky-600">Home</a>
+        <a href="#about" class="hover:text-sky-600">About</a>
+        <a href="#services" class="hover:text-sky-600">Services</a>
+        <a href="#portfolio" class="hover:text-sky-600">Portfolio</a>
+        <a href="#contact" class="hover:text-sky-600">Contact</a>
+        <a href="#contact" class="px-4 py-2 rounded-xl bg-sky-600 text-white hover:bg-sky-700 shadow-soft">Get a Free Quote</a>
+      </nav>
+      <button id="menuBtn" class="md:hidden p-2 rounded-lg border border-slate-200" aria-label="Open menu">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" /></svg>
+      </button>
+    </div>
+    <!-- Mobile Menu -->
+    <div id="mobileMenu" class="hidden md:hidden border-t border-slate-200 bg-white">
+      <div class="px-6 py-4 flex flex-col gap-3 text-slate-700">
+        <a href="#home" class="hover:text-sky-600">Home</a>
+        <a href="#about" class="hover:text-sky-600">About</a>
+        <a href="#services" class="hover:text-sky-600">Services</a>
+        <a href="#portfolio" class="hover:text-sky-600">Portfolio</a>
+        <a href="#contact" class="hover:text-sky-600">Contact</a>
+        <a href="#contact" class="px-4 py-2 rounded-xl bg-sky-600 text-white text-center hover:bg-sky-700">Get a Free Quote</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="relative overflow-hidden">
+    <div class="absolute inset-0 -z-10 bg-gradient-to-br from-sky-50 via-white to-blue-50"></div>
+    <div class="mx-auto container-narrow px-4 sm:px-6 py-16 sm:py-24 grid lg:grid-cols-2 gap-10 items-center">
+      <div>
+        <span class="inline-flex items-center gap-2 text-xs font-medium px-3 py-1 rounded-full bg-sky-100 text-sky-700 ring-1 ring-sky-200">Witbank, South Africa • Fast Turnaround</span>
+        <h1 class="mt-4 text-4xl sm:text-5xl font-extrabold leading-tight">Creative Designs. <span class="text-sky-600">Smart Websites</span>. Quality Prints.</h1>
+        <p class="mt-4 text-slate-600 text-base sm:text-lg">We build standout brands, modern responsive websites, and premium T‑shirt prints. One studio. All your visuals.</p>
+        <div class="mt-6 flex flex-wrap gap-3">
+          <a href="https://wa.me/27685366683?text=Hi%20Seth%20Creative%20Studios!%20I%27d%20like%20a%20quote%20for..." class="px-5 py-3 rounded-xl bg-sky-600 text-white hover:bg-sky-700 shadow-soft" target="_blank" rel="noopener">WhatsApp Us</a>
+          <a href="#portfolio" class="px-5 py-3 rounded-xl border border-slate-300 hover:border-sky-300 hover:text-sky-700">See Our Work</a>
+        </div>
+        <div class="mt-6 text-sm text-slate-500">Call: <a class="underline hover:text-sky-700" href="tel:+27685366683">+27 685 366 683</a> • <a class="underline hover:text-sky-700" href="tel:+27696449971">+27 696 449 971</a> • <a class="underline hover:text-sky-700" href="mailto:sethprint7@gmail.com">sethprint7@gmail.com</a></div>
+      </div>
+      <div class="relative">
+        <div class="aspect-[4/3] rounded-3xl bg-white shadow-soft ring-1 ring-slate-200 overflow-hidden">
+          <!-- Simple collage mockup -->
+          <div class="grid grid-cols-2 h-full">
+            <div class="p-6 flex flex-col justify-between bg-slate-50">
+              <div>
+                <div class="text-xs uppercase tracking-wide text-slate-500">Web Design</div>
+                <div class="mt-1 h-32 rounded-xl bg-gradient-to-br from-sky-200 to-sky-400"></div>
+              </div>
+              <div>
+                <div class="text-xs uppercase tracking-wide text-slate-500">Branding</div>
+                <div class="mt-1 h-20 rounded-xl bg-gradient-to-br from-indigo-200 to-indigo-400"></div>
+              </div>
+            </div>
+            <div class="p-6 bg-white flex flex-col justify-between">
+              <div>
+                <div class="text-xs uppercase tracking-wide text-slate-500">T‑Shirt Printing</div>
+                <div class="mt-1 h-40 rounded-xl bg-gradient-to-br from-emerald-200 to-emerald-400"></div>
+              </div>
+              <div>
+                <div class="text-xs uppercase tracking-wide text-slate-500">Social Media</div>
+                <div class="mt-1 h-24 rounded-xl bg-gradient-to-br from-rose-200 to-rose-400"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trust Bar -->
+  <section class="py-6 border-y bg-white">
+    <div class="mx-auto container-narrow px-4 sm:px-6 flex flex-wrap items-center justify-center gap-6 text-slate-500 text-sm">
+      <span class="inline-flex items-center gap-2"><svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 011.946-.697h4.438c.698 0 1.37.246 1.904.697l2.816 2.454A3.42 3.42 0 0120 8.594V17.25A2.25 2.25 0 0117.75 19.5H6.25A2.25 2.25 0 014 17.25V8.594c0-.98.427-1.912 1.132-2.443l2.703-1.454z"/></svg> Affordable Packages</span>
+      <span class="inline-flex items-center gap-2"><svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6l4 2"/></svg> Fast Turnaround</span>
+      <span class="inline-flex items-center gap-2"><svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M4 6h8m-8 6h8m-8 6h8"/></svg> Graphics • Web • Printing</span>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-16 bg-slate-50">
+    <div class="mx-auto container-narrow px-4 sm:px-6 grid lg:grid-cols-2 gap-12 items-center">
+      <div>
+        <h2 class="text-3xl sm:text-4xl font-bold">About Us</h2>
+        <p class="mt-4 text-slate-600">At <strong>Seth Creative Studios</strong>, we bring ideas to life. We craft brand identities, build modern responsive websites, and deliver premium T‑shirt printing. Whether you’re a startup, SME, or a growing brand, we help you look professional and sell more.</p>
+        <ul class="mt-6 grid sm:grid-cols-2 gap-3 text-sm text-slate-700">
+          <li class="flex items-start gap-2"><span class="mt-1 h-2 w-2 rounded-full bg-sky-500"></span> Creative Graphic Solutions</li>
+          <li class="flex items-start gap-2"><span class="mt-1 h-2 w-2 rounded-full bg-sky-500"></span> Modern & Responsive Websites</li>
+          <li class="flex items-start gap-2"><span class="mt-1 h-2 w-2 rounded-full bg-sky-500"></span> High‑Quality T‑Shirt Printing</li>
+          <li class="flex items-start gap-2"><span class="mt-1 h-2 w-2 rounded-full bg-sky-500"></span> Affordable, transparent pricing</li>
+        </ul>
+        <div class="mt-6 flex gap-3">
+          <a href="mailto:sethprint7@gmail.com" class="px-5 py-3 rounded-xl border border-slate-300 hover:border-sky-300">Email Us</a>
+          <a href="https://wa.me/27696449971?text=Hi%20Seth%20Creative%20Studios%2C%20I%27m%20interested%20in..." target="_blank" rel="noopener" class="px-5 py-3 rounded-xl bg-sky-600 text-white hover:bg-sky-700">WhatsApp a Consultant</a>
+        </div>
+      </div>
+      <div class="rounded-3xl overflow-hidden bg-white ring-1 ring-slate-200 shadow-soft p-6">
+        <dl class="grid grid-cols-2 gap-6 text-center">
+          <div>
+            <dt class="text-3xl font-extrabold text-sky-600">50+ </dt>
+            <dd class="text-sm text-slate-500">Brand Assets Delivered</dd>
+          </div>
+          <div>
+            <dt class="text-3xl font-extrabold text-sky-600">100% </dt>
+            <dd class="text-sm text-slate-500">Responsive Websites</dd>
+          </div>
+          <div>
+            <dt class="text-3xl font-extrabold text-sky-600">48h </dt>
+            <dd class="text-sm text-slate-500">Fast Draft Turnaround</dd>
+          </div>
+          <div>
+            <dt class="text-3xl font-extrabold text-sky-600">5★ </dt>
+            <dd class="text-sm text-slate-500">Client Satisfaction</dd>
+          </div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="py-16 bg-white">
+    <div class="mx-auto container-narrow px-4 sm:px-6">
+      <h2 class="text-3xl sm:text-4xl font-bold text-center">Our Services</h2>
+      <p class="mt-3 text-center text-slate-600 max-w-2xl mx-auto">Everything you need to look professional online and offline.</p>
+      <div class="mt-10 grid md:grid-cols-3 gap-6">
+        <!-- Graphics & Branding -->
+        <div class="rounded-3xl ring-1 ring-slate-200 bg-white p-6 shadow-soft">
+          <div class="h-12 w-12 rounded-2xl bg-sky-100 grid place-items-center mb-4">
+            <svg width="22" height="22" fill="none" stroke="#0284c7" stroke-width="2.2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15.232 5.232l3.536 3.536M9 11l-3 3 1.5 1.5 3-3M12 4h.01M20 12a8 8 0 11-16 0 8 8 0 0116 0z"/></svg>
+          </div>
+          <h3 class="font-semibold text-lg">Graphics & Branding</h3>
+          <p class="mt-2 text-slate-600 text-sm">Logos, flyers, posters, social media kits, business cards, banners, brand guides.</p>
+        </div>
+        <!-- Web Design -->
+        <div class="rounded-3xl ring-1 ring-slate-200 bg-white p-6 shadow-soft">
+          <div class="h-12 w-12 rounded-2xl bg-sky-100 grid place-items-center mb-4">
+            <svg width="22" height="22" fill="none" stroke="#0284c7" stroke-width="2.2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5h18M3 10h18M7 15h10M9 20h6"/></svg>
+          </div>
+          <h3 class="font-semibold text-lg">Website Design & Development</h3>
+          <p class="mt-2 text-slate-600 text-sm">Responsive business sites, e‑commerce, and portfolios that are fast, secure, and SEO‑ready.</p>
+        </div>
+        <!-- T-Shirt Printing -->
+        <div class="rounded-3xl ring-1 ring-slate-200 bg-white p-6 shadow-soft">
+          <div class="h-12 w-12 rounded-2xl bg-sky-100 grid place-items-center mb-4">
+            <svg width="22" height="22" fill="none" stroke="#0284c7" stroke-width="2.2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M16 7l-4-2-4 2m8 0l4 2v8a2 2 0 01-2 2H6a2 2 0 01-2-2V9l4-2m8 0v12M8 7v12"/></svg>
+          </div>
+          <h3 class="font-semibold text-lg">T‑Shirt Printing</h3>
+          <p class="mt-2 text-slate-600 text-sm">Custom and bulk printing with durable finishes. Quick turnaround and premium fabrics.</p>
+        </div>
+      </div>
+      <div class="mt-10 text-center">
+        <a href="https://wa.me/27685366683?text=Hi%20Seth%20Creative%20Studios%2C%20please%20quote%20me%20on%20%5BGraphics%20%2F%20Website%20%2F%20T‑Shirt%5D" target="_blank" rel="noopener" class="inline-block px-6 py-3 rounded-xl bg-sky-600 text-white hover:bg-sky-700 shadow-soft">Get a Free Quote on WhatsApp</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+  <section id="portfolio" class="py-16 bg-slate-50">
+    <div class="mx-auto container-narrow px-4 sm:px-6">
+      <h2 class="text-3xl sm:text-4xl font-bold text-center">Portfolio</h2>
+      <p class="mt-3 text-center text-slate-600 max-w-2xl mx-auto">A glimpse of what we can create. Replace these with your actual projects later.</p>
+      <div class="mt-10 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Placeholder cards -->
+        <div class="group rounded-3xl overflow-hidden ring-1 ring-slate-200 bg-white shadow-soft">
+          <div class="h-40 bg-gradient-to-br from-sky-200 to-sky-400"></div>
+          <div class="p-4">
+            <div class="font-semibold">Business Website</div>
+            <div class="text-sm text-slate-500">Responsive • SEO‑Ready</div>
+          </div>
+        </div>
+        <div class="group rounded-3xl overflow-hidden ring-1 ring-slate-200 bg-white shadow-soft">
+          <div class="h-40 bg-gradient-to-br from-indigo-200 to-indigo-400"></div>
+          <div class="p-4">
+            <div class="font-semibold">Brand Kit</div>
+            <div class="text-sm text-slate-500">Logo • Palette • Fonts</div>
+          </div>
+        </div>
+        <div class="group rounded-3xl overflow-hidden ring-1 ring-slate-200 bg-white shadow-soft">
+          <div class="h-40 bg-gradient-to-br from-emerald-200 to-emerald-400"></div>
+          <div class="p-4">
+            <div class="font-semibold">E‑commerce Store</div>
+            <div class="text-sm text-slate-500">Payments • Catalog</div>
+          </div>
+        </div>
+        <div class="group rounded-3xl overflow-hidden ring-1 ring-slate-200 bg-white shadow-soft">
+          <div class="h-40 bg-gradient-to-br from-rose-200 to-rose-400"></div>
+          <div class="p-4">
+            <div class="font-semibold">Social Media Graphics</div>
+            <div class="text-sm text-slate-500">Instagram • Facebook</div>
+          </div>
+        </div>
+        <div class="group rounded-3xl overflow-hidden ring-1 ring-slate-200 bg-white shadow-soft">
+          <div class="h-40 bg-gradient-to-br from-amber-200 to-amber-400"></div>
+          <div class="p-4">
+            <div class="font-semibold">Event Poster</div>
+            <div class="text-sm text-slate-500">A3 • Print‑Ready</div>
+          </div>
+        </div>
+        <div class="group rounded-3xl overflow-hidden ring-1 ring-slate-200 bg-white shadow-soft">
+          <div class="h-40 bg-gradient-to-br from-fuchsia-200 to-fuchsia-400"></div>
+          <div class="p-4">
+            <div class="font-semibold">T‑Shirt Collection</div>
+            <div class="text-sm text-slate-500">Custom Prints</div>
+          </div>
+        </div>
+      </div>
+      <div class="mt-10 text-center">
+        <a href="#contact" class="inline-block px-6 py-3 rounded-xl border border-slate-300 hover:border-sky-300">Request Portfolio PDF</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-16 bg-white">
+    <div class="mx-auto container-narrow px-4 sm:px-6 grid lg:grid-cols-2 gap-10">
+      <div>
+        <h2 class="text-3xl sm:text-4xl font-bold">Contact Us</h2>
+        <p class="mt-3 text-slate-600">Let’s talk about your project. We respond quickly on WhatsApp.</p>
+        <div class="mt-6 space-y-3 text-slate-700 text-sm">
+          <div><strong>Phone:</strong> <a class="underline hover:text-sky-700" href="tel:+27685366683">+27 685 366 683</a> / <a class="underline hover:text-sky-700" href="tel:+27696449971">+27 696 449 971</a></div>
+          <div><strong>Email:</strong> <a class="underline hover:text-sky-700" href="mailto:sethprint7@gmail.com">sethprint7@gmail.com</a></div>
+          <div><strong>WhatsApp:</strong> <a class="underline hover:text-sky-700" href="https://wa.me/27685366683?text=Hi%20Seth%2C%20I%20need%20help%20with..." target="_blank" rel="noopener">Chat now</a></div>
+          <div><strong>Service Area:</strong> Witbank (Emalahleni) • Mpumalanga • South Africa</div>
+        </div>
+        <form class="mt-8 grid gap-4" onsubmit="event.preventDefault(); window.open('https://wa.me/27685366683?text='+encodeURIComponent('Hi Seth Creative Studios! My name is '+document.getElementById('name').value+' . Email: '+document.getElementById('email').value+' . Message: '+document.getElementById('message').value), '_blank');">
+          <div class="grid sm:grid-cols-2 gap-4">
+            <div>
+              <label for="name" class="block text-sm font-medium text-slate-700">Name</label>
+              <input id="name" type="text" required class="mt-1 w-full rounded-xl border-slate-300 focus:border-sky-400 focus:ring-sky-400" placeholder="Your name" />
+            </div>
+            <div>
+              <label for="email" class="block text-sm font-medium text-slate-700">Email</label>
+              <input id="email" type="email" required class="mt-1 w-full rounded-xl border-slate-300 focus:border-sky-400 focus:ring-sky-400" placeholder="you@example.com" />
+            </div>
+          </div>
+          <div>
+            <label for="message" class="block text-sm font-medium text-slate-700">Message</label>
+            <textarea id="message" rows="4" required class="mt-1 w-full rounded-xl border-slate-300 focus:border-sky-400 focus:ring-sky-400" placeholder="Tell us about your project…"></textarea>
+          </div>
+          <div class="flex flex-wrap gap-3">
+            <button type="submit" class="px-6 py-3 rounded-xl bg-sky-600 text-white hover:bg-sky-700 shadow-soft">Send via WhatsApp</button>
+            <a href="mailto:sethprint7@gmail.com" class="px-6 py-3 rounded-xl border border-slate-300 hover:border-sky-300">Send Email</a>
+          </div>
+          <p class="text-xs text-slate-500">Submitting opens WhatsApp with your message. No data is stored on this site.</p>
+        </form>
+      </div>
+      <div class="rounded-3xl overflow-hidden ring-1 ring-slate-200 shadow-soft">
+        <iframe title="Witbank Map" src="https://www.google.com/maps?q=Witbank,%20South%20Africa&output=embed" class="w-full h-[420px]" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t bg-slate-50">
+    <div class="mx-auto container-narrow px-4 sm:px-6 py-10 grid md:grid-cols-3 gap-8 text-sm">
+      <div>
+        <div class="flex items-center gap-3">
+          <div class="w-10 h-10 rounded-2xl bg-sky-500 grid place-items-center text-white font-extrabold">S</div>
+          <div class="text-lg font-bold">Seth Creative Studios</div>
+        </div>
+        <p class="mt-3 text-slate-600">Creative Designs • Smart Websites • Quality Prints</p>
+      </div>
+      <div>
+        <div class="font-semibold mb-2">Quick Links</div>
+        <ul class="space-y-1 text-slate-600">
+          <li><a href="#about" class="hover:text-sky-700">About</a></li>
+          <li><a href="#services" class="hover:text-sky-700">Services</a></li>
+          <li><a href="#portfolio" class="hover:text-sky-700">Portfolio</a></li>
+          <li><a href="#contact" class="hover:text-sky-700">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="font-semibold mb-2">Contact</div>
+        <ul class="space-y-1 text-slate-600">
+          <li><a class="hover:text-sky-700 underline" href="tel:+27685366683">+27 685 366 683</a></li>
+          <li><a class="hover:text-sky-700 underline" href="tel:+27696449971">+27 696 449 971</a></li>
+          <li><a class="hover:text-sky-700 underline" href="mailto:sethprint7@gmail.com">sethprint7@gmail.com</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="border-t py-4 text-center text-xs text-slate-500">© 2025 Seth Creative Studios. All rights reserved.</div>
+  </footer>
+
+  <!-- Floating WhatsApp Button -->
+  <a href="https://wa.me/27685366683?text=Hi%20Seth%20Creative%20Studios!%20I%27d%20like%20a%20quote" class="fixed bottom-5 right-5 z-50 grid place-items-center w-14 h-14 rounded-full bg-green-500 text-white shadow-soft" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="24" height="24" fill="currentColor"><path d="M19.11 17.47c-.3-.15-1.77-.87-2.04-.97-.27-.1-.47-.15-.68.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.47-.89-.8-1.49-1.78-1.67-2.08-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.68-1.63-.93-2.23-.24-.58-.48-.5-.68-.5-.17-.01-.37-.01-.57-.01-.2 0-.52.07-.8.37-.27.3-1.05 1.03-1.05 2.5 0 1.48 1.08 2.92 1.24 3.12.15.2 2.12 3.23 5.14 4.53.72.31 1.28.49 1.72.62.72.23 1.38.2 1.9.12.58-.09 1.77-.72 2.02-1.43.25-.71.25-1.31.17-1.43-.07-.12-.27-.2-.57-.35z"/><path d="M16.02 5.33c-5.9 0-10.69 4.79-10.69 10.69 0 1.88.49 3.64 1.35 5.18L5 27l5.93-1.56c1.5.82 3.22 1.28 5.07 1.28 5.9 0 10.69-4.79 10.69-10.69s-4.79-10.69-10.69-10.69zm0 19.45c-1.64 0-3.17-.45-4.48-1.24l-.32-.19-3.52.93.94-3.43-.21-.35a9.195 9.195 0 01-1.41-4.9c0-5.1 4.15-9.25 9.25-9.25s9.25 4.15 9.25 9.25-4.15 9.25-9.25 9.25z"/></svg>
+  </a>
+
+  <script>
+    const menuBtn = document.getElementById('menuBtn');
+    const mobileMenu = document.getElementById('mobileMenu');
+    menuBtn?.addEventListener('click', () => mobileMenu.classList.toggle('hidden'));
+  </script>
+</body>
+</html>
